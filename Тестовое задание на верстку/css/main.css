@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    height: 100vh;
+    overflow: hidden;
+}
+.bg{
+    overflow: hidden;
+}
+.bg1{
+    padding-top: 9rem;
+    width: 100%;
+    height: 41rem;
+}
+.bg2{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 15rem;
+    width: 100%;
+    /* display: none; */
+    height: 26rem;
+}
+.bg3{
+    position: absolute;
+    top: 17rem;
+    left: 0;
+    width: 100%;
+    height: 24rem;
+    z-index: 2;
+}
+.bg4{
+    position: absolute;
+    top: 17rem;
+    left: 39.5rem;
+    z-index: 3;
+    /* width: 10rem; */
+    /* height: 24rem; */
+}
+.bg5{
+    position: absolute;
+    top: 21rem;
+    left: 47.5rem;
+    z-index: 4;
+}
+.bg6{
+    position: absolute;
+    top: 18rem;
+    left: 0;
+    z-index: 5;
+}
+.osmon{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bulut1{
+    position: absolute;
+    top: 2rem;
+    right: 0rem;
+    z-index: -1;
+}
+.bulut2{
+    position: absolute;
+    top: 6rem;
+    right: 28rem;
+    z-index: -1;
+}
+.bulut3{
+    position: absolute;
+    top: 3rem;
+    left: 15rem;
+    z-index: -1;
+}
+.bulut4{
+    position: absolute;
+    top: 10rem;
+    left: 32rem;
+    z-index: -1;
+}
+.bulut5{
+    position: absolute;
+    top: 10rem;
+    right: 14rem;
+    z-index: -1;
+}
+.bulut6{
+    position: absolute;
+    top: 12rem;
+    right: 23rem;
+    z-index: -1;
+}
+.bulut7{
+    position: absolute;
+    top: 12rem;
+    right: 30rem;
+    z-index: -1;
+}
+.zdanya{
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+    z-index: 6;
+}
+
+.kattadaraxt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7;
+}
+.fonar{
+    position: absolute;
+    top: 13rem;
+    left: 1rem;
+    z-index: 8;
+}
+.kattadaraxt18{
+    position: absolute;
+    top: 14rem;
+    right: 22rem;
+    z-index: 9;
+}
+.centerfonar{
+    position: absolute;
+    top: 10rem;
+    left: 33rem;
+    z-index: 10;
+}
+.ot{
+    position: absolute;
+    top: 23rem;
+    left: 33rem;
+    z-index: 11;
+}
+.centerfonar2{
+    position: absolute;
+    top: 15rem;
+    left: 42rem;
+    z-index: 12;
+}
+.centerfonar3{
+    position: absolute;
+    top: 15.5rem;
+    left: 48rem;
+    z-index: 12;
+}
+.centerfonar4{
+    position: absolute;
+    top: 15.5rem;
+    left: 55rem;
+    z-index: 12;
+}
+.kust{
+    position: absolute;
+    top: 24rem;
+    left: 39rem;
+    z-index: 12;
+}
+.tuvak{
+    position: absolute;
+    top: 23rem;
+    left: 36rem;
+    z-index: 10;
+}
+.kustong{
+    position: absolute;
+    top: 20rem;
+    right: 0;
+    z-index: 12;
+}
+.yul{
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    z-index: 13;
+    width: 100%;
+}
+.otolan{
+    position: absolute;
+    top: 20rem;
+    left: 7rem;
+    z-index: 14;
+    /* width: 100%; */
+}
+.ballar{
+    position: absolute;
+    top: 20rem;
+    left: 0;
+    z-index: 14;
+    /* width: 100%; */
+}
+.olmoxon{
+    position: absolute;
+    top: 21rem;
+    left: 9rem; 
+    z-index: 15;
+    animation: olmoxonuchun 1.5s infinite;
+
+}
+
+.bayroq{
+    position: absolute;
+    top: 5rem;
+    left: 27rem;
+    z-index: 15;
+    animation: bayroquchun 1.5s infinite;
+
+}
+
+.kema{
+    position: absolute;
+    top: 20rem;
+    left: 51rem;
+    z-index: 15;
+    animation: kemauchun 1.5s infinite;
+}
+.chiroq{
+    position: absolute;
+    top: 12.5rem;
+    right: 8rem;
+    z-index: 15;
+    animation: chiroquchun 1.5s infinite;
+}
+.suvbliq{
+    position: absolute;
+    top: 23rem;
+    right: 21rem;
+    z-index: 15;
+    animation: suvbliquchun 1.5s infinite;
+}
+
+.zambir{
+    position: absolute;
+    top: 25rem;
+    right: 34rem;
+    z-index: 15;
+    animation: zambiruchun 1.5s infinite;
+}
+.animatot{
+    position: absolute;
+    top: 27rem;
+    left: 13rem;
+    z-index: 15;
+    animation: zambiuchun 1.5s infinite;
+}
+.svet{
+    position: absolute;
+    top: 11.5rem;
+    left: 36.22rem;
+    z-index: 15;
+    animation: svetuchun 1.5s infinite;
+}
+.svet2{
+    position: absolute;
+    top: 11.5rem;
+    left: 33.22rem;
+    z-index: 15;
+    animation: svetuchun 1.5s infinite;
+}
+.svet3{
+    position: absolute;
+    top: 10.5rem;
+    left: 34.7rem;
+    z-index: 15;
+    animation: svetuchun 1.5s infinite;
+}
+
+@keyframes svetuchun {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+} 
+
+@keyframes kemauchun {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+
+  
+@keyframes olmoxonuchun {
+    0% {
+      tranform: translate(8px, 0);
+    }
+    50% {
+      transform: translate(16px, 0);
+    }
+} 
+
+@keyframes bayroquchun {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        left: 27.4rem;
+        transform: scale(1.3);
+    }
+} 
+@keyframes chiroquchun {
+    0% {
+        transform: scale(0.1);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+} 
+@keyframes suvbliquchun {
+    0% {
+        transform: scale(0.6);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+} 
+@keyframes zambiruchun {
+    0% {
+        top: 24.5rem;
+        right: 35rem;
+        transform: scale(0.6);
+    }
+    50% {
+        top: 25rem;
+        right: 33.5rem;
+        transform: scale(1.1);
+    }
+} 
